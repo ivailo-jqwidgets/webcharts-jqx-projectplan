@@ -5,9 +5,9 @@ var describe,
 
 describe('sumAndDif', function () {
     'use strict';
-    var result = example(1, 3);
+    var result = example(1, 4);
 
     it('Should Sum', function () {
-        expect(result.sum).toBe(4);
+        expect(result.sum).toBe(5);
     });
 });
